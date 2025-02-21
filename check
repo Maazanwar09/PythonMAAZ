@@ -27,3 +27,28 @@ print(f"{number} is a perfect number")
 else:
 
 print(f"(number) is not a perfect number")
+
+2
+def is armstrong_number(num):
+
+num strstr(num).
+
+num_digits len(num_str)
+
+sum_of_powers = sum(int(digit)
+
+ num digits for digit in num_str)
+
+return sum of_powers num
+
+number int(input("Enter an integer: "))
+
+
+if is_armstrong_number(number):
+
+print (f" (number) is an Armstrong number.")
+
+ else:
+
+
+print(f" (number) is not an Armstrong number.")
