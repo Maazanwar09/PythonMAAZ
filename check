@@ -52,3 +52,34 @@ print (f" (number) is an Armstrong number.")
 
 
 print(f" (number) is not an Armstrong number.")
+
+3.
+A program to detect whether a number is prime or not.
+
+# A number is prime if it is only divisible by 1 and itself.
+
+def is_prime(n):
+
+ if n 1:
+
+return False
+
+for i in range(2, n):
+
+if n % i 0:
+
+return False
+
+return True
+
+ n = int(input("Enter a number: "))
+
+
+if is_prime(n):
+
+print(f"(n) is a prime number")
+
+else:
+
+
+print(f"{n} is not a prime number")
